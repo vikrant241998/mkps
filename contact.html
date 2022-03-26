@@ -1,0 +1,134 @@
+<!-- Jai Shree Ganesh -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./Phone Style/phone.css">
+    <title>Ritu Makeover - Makeup Artist, Certified by Lakme Academy</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./images/logo.jfif" alt="Logo image">
+                <span>Ritu Makeover</span>
+            </div>
+
+            <div class="menu-Right" id="menu-links">
+                <img id="close-bar" src="./images/close.png" onclick="hideMenu()">
+                <ul>
+                    <li><a href="./index.html">HOME</a> </li>
+                    <li><a href="./about.html">ABOUT</a> </li>
+                    <li><a href="./portfolio.html">PORTFOLIO</a> </li>
+                    <li><a href="./services.html">SERVICE</a> </li>
+                    <li><a href="./contact.html">CONTACT</a> </li>
+                    <li><a href="https://rxresu.me/r/yu5vrt">RESUME</a> </li>
+                </ul>
+            </div>
+            <img id="menu-bar" src="./images/menu.png" onclick="showMenu()">
+        </div>
+
+
+        <!-- contact-Section-Start -->
+        <div class="contact-image">
+           <img src="./images/contact_01.jpg" alt="">
+            <!-- <h1>RITU MAKEOVER</h1>
+            <h1>CONTACT US</h1>      -->
+            
+        </div>
+
+        <div class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448183.73910740175!2d76.81306874896305!3d28.6466772511832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1647185047536!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="heading-h3">
+            <h3>Let's Start a Conversation</h3>
+        </div>
+
+
+
+
+        <div class="contact-Box">
+            
+            <div class="row">
+                <div class="contact-cols">
+                    <div>
+                        <img src="./images/home.png" alt="">
+                        <span>
+                            <h5>Address</h5>
+                            <p>Jahangir Puri, New Delhi 110033</p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <img src="./images/call.png" alt="">
+                        <span>
+                            <h5>Contact US</h5>
+                            <p>+91 9599733765</p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <img src="./images/msg.png" alt="">
+                        <span>
+                            <h5>Email us your query</h5>
+                            <p>ritumakeover@gmail.com</p>
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-cols">
+                    <form onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" id="name" placeholder="Enter your Name" required>
+                        <input type="email"id="email" placeholder="Enter Your Email Address" required>
+                        <input type="text" id="phone" placeholder="Enter Your Number" required>
+                        <input type="text" id="subject" placeholder="Enter Your Subject" required>
+                        <textarea rows="8" id="message" placeholder="Type Message..."></textarea>
+                        <div class="btn-box">
+                            <button id="contact-btn" type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="about-bottom">
+            <h3>About US</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem molestias enim sequi dolorum.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem, consectetur adipisicing elit. </p>
+        </div>
+
+
+        <div class="footer">
+            <span>Copyright © 2022-2023 www.ritumakeover.com</span>
+
+
+            <div class="about-social-icons">
+                <a href="https://facebook.com"> <img src="./images/fb.ico" alt=""></a>
+                <a href="https://instagram.com"> <img src="./images/insta.ico" alt=""></a>
+                <a href="https://linkedin.com"> <img src="./images/linkedin.ico" alt=""></a>
+                <a href="https://twitter.com"> <img src="./images/twitter.ico" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Add SMTP url here -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./js/logic.js"></script>
+</body>
+
+</html> 
